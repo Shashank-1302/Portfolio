@@ -4,6 +4,8 @@ import Navbar from '@/components/Navbar'
 import './globals.css'
 import Footer from '@/components/Footer'
 import Social from '@/components/Social'
+import { useEffect } from 'react'
+
 
 
 export const metadata = {
@@ -12,6 +14,9 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    document.body.style.fontFamily = 'DM Sans, sans-serif';
+  },[]);
   return (
     <html lang="en">
       
@@ -20,7 +25,7 @@ export default function RootLayout({ children }) {
    <body>
    
    <Navbar />
-      <main>{children}</main>
+      <main>{children}  </main>
       <Footer/>
    </body>
     </html>

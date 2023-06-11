@@ -1,9 +1,8 @@
-
-
+import HomePage from '../components/HomePage'
 export default function Home() {
   return (
-   <h1>
-    .
-   </h1>
+    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
+    <HomePage/>
+  </main>
   )
 }

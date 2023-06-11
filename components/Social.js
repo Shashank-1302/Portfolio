@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineGithub, AiOutlineTwitter, AiOutlineLinkedin } from 'react-icons/ai'
+import { AiOutlineGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram , AiOutlineInstagram } from 'react-icons/ai'
 
 const Social = () => {
   return (
@@ -7,7 +7,7 @@ const Social = () => {
         <div className="flex flex-row items-center justify-center space-x-2 mb-1 ">
           <a href="https://github.com/Shashank-1302" rel="noreferrer" target="_blank">
             <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-black rounded-lg shadow-inner hover:text-gray-800 ease-in duration-150  "
+              className="cursor-pointer text-black rounded-lg  ease-in duration-150  "
               size={30}
             />
           </a>
@@ -17,7 +17,7 @@ const Social = () => {
             target="_blank"
           >
             <AiOutlineTwitter
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-black rounded-lg shadow-inner hover:text-gray-800 ease-in duration-150"
+              className=" cursor-pointer text-black rounded-full hover:text-[#00acee]  ease-in duration-150 "
               size={30}
             />
           </a>
@@ -27,8 +27,18 @@ const Social = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-black rounded-lg shadow-inner hover:text-gray-800 ease-in duration-150"
+            <AiFillLinkedin
+              className=" cursor-pointer text-black  hover:text-[#0072b1]  ease-in duration-200"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/shashank1302/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineInstagram
+              className=" cursor-pointer rounded-lg hover:text-white text-black  hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500  ease-in duration-150"
               size={30}
             />
           </a>
