@@ -3,6 +3,7 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import Footer from '@/components/Footer'
+import Social from '@/components/Social'
 
 
 export const metadata = {
@@ -15,11 +16,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       
-      <div>
-      <Navbar />
+   
+   <body>
+   
+   <Navbar />
       <main>{children}</main>
       <Footer/>
-    </div>
+   </body>
     </html>
   )
 }
