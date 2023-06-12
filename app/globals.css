@@ -15,26 +15,59 @@ html {
     @apply bg-white text-black tracking-wide
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold 
+}
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80px);
+    }
+    100% {
+      opacity: 2;
+      transform: translateY(0);
+    }
   }
-
-  h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+@keyframes fadeInDown {
+        0% {
+        opacity: 0;
+        transform: translateY(-80px);
+        }
+        100% {
+        opacity: 2;
+        transform: translateY(0);
+        }
+    }
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-80px);
+    }
+    100% {
+      opacity: 2;
+      transform: translateX(0);
+    }
   }
-
-  h2 {
-    @apply text-3xl sm:text-4xl
+    
+@keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(80px);
+    }
+    100% {
+      opacity: 2;
+      transform: translateX(0);
+    }
   }
   
-  li {
-    @apply cursor-pointer
+  .animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-in-out;
   }
-
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+  .animate-fadeInDown{
+    animation: fadeInDown 0.6s ease-in-out;
   }
-}
-@layer components{
-    
-}
+  .animate-fadeInRight{
+    animation: fadeInRight 0.6s ease-in-out;
+  }
+    .animate-fadeInLeft{
+        animation: fadeInLeft 0.6s ease-in-out;
+    }
+  
