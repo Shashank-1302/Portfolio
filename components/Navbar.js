@@ -9,8 +9,8 @@ const handleNAv = () => {
 }
 
   return (
-    <div className='fixed w-full  h-20 z-[100] animate-fadeInDown  '>
-      <div className='flex justify-between items-center mx-auto max-w-5xl  w-full h-full px-2 2xl:px-16 '>
+    <div className='fixed w-full  h-20 z-[100] animate-fadeInDown bg-white '>
+      <div className='flex justify-between items-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl  w-full h-full  2xl:px-16 '>
         <h1 className='font-bold text-2xl font-sans '></h1>
         <div>
           <ul className='hidden md:flex'>
@@ -18,7 +18,7 @@ const handleNAv = () => {
               <Link href='/'>Home</Link>
             </li>
             <li className='ml-10 text-lg hover:-translate-y-1 transition-transform cursor-pointer'>
-              <Link href='/#about'>About</Link>
+              <Link href='#about' >About</Link>
             </li>
             <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer'>
               <Link href='/#skills'>Skills</Link>
@@ -38,10 +38,10 @@ const handleNAv = () => {
           </div>
         </div>
       </div>
-      <div className={nav ? 'fixed left-0 top-0 w-full h-full bg-black/70':''}>
-        <div className={nav ? 'fixed left 0 top-0 translate-x-0 w-full h-screen bg-white ease-in duration-200':' fixed right-[-100%] top-0 translate-x-1 ease-in duration-500'}>
+      <div className={nav ? 'fixed left-0 top-0 w-full h-full ':'animate-fadeInLeft ease-in duration-300'}>
+        <div className={nav ? 'fixed left 0 top-0  w-full h-screen bg-white ease-in duration-200 animate-fadeInRight':' fixed right-[-100%] top-0  ease-in duration-500'}>
           <div className='mx-2'>
-            <div className='flex w-[100%] items-center justify-between my-2'>
+            <div className='flex w-[100%] items-center justify-between my-2 '>
             <h1 className='font-bold text-2xl font-sans px-2 '></h1>
             <div onClick={handleNAv} className=' shadow-gray-400 p-3 cursor-pointer hover:scale-[110%] ease-in duration-150 hover:text-red-700 '>
               <AiOutlineClose size={30} />
@@ -55,7 +55,7 @@ const handleNAv = () => {
                   Home
                 </li>
               </Link>
-              <Link href='/#about'>
+              <Link href='#about'>
                 <li onClick={() => setNav(false)} className='py-4 text-lg hover:scale-105 ease-in duration-200'>
                   About
                 </li>
