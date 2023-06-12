@@ -8,8 +8,8 @@ const About = () => {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 ">
             <img
-              className="w-full h-auto object-cover  rounded-full"
-              src="/portfolio_profile.jpg"
+              className="w-full h-auto object-cover  rounded-xl"
+              src="/OIP.jpeg"
               alt="Profile Image"
             />
           </div>

@@ -9,27 +9,27 @@ const handleNAv = () => {
 }
 
   return (
-    <div className='fixed w-full  h-20 z-[100] animate-fadeInDown bg-white '>
+    <div className='fixed w-full  h-20 z-[100] animate-fadeInDown mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl  bg-white '>
       <div className='flex justify-between items-center mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl  w-full h-full  2xl:px-16 '>
         <h1 className='font-bold text-2xl font-sans '></h1>
         <div>
           <ul className='hidden md:flex'>
-          <li className='ml-10 text-lg  hover:-translate-y-1 transition-transform cursor-pointer'>
+          <li className='ml-10 text-lg  hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-lg hover:-translate-y-1 transition-transform cursor-pointer'>
+            <li className='ml-10 text-lg hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='#about' >About</Link>
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer'>
-              <Link href='/#skills'>Skills</Link>
+            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
+              <Link href='/#skills'>Skills</Link> 
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer'>
+            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer'>
+            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer'>
+            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
