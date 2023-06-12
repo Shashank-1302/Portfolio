@@ -9,8 +9,8 @@ const handleNAv = () => {
 }
 
   return (
-    <div className='fixed w-full h-20 z-[100] bg-white/90 '>
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+    <div className='fixed w-full  h-20 z-[100] animate-fadeInDown  '>
+      <div className='flex justify-between items-center mx-auto max-w-5xl  w-full h-full px-2 2xl:px-16 '>
         <h1 className='font-bold text-2xl font-sans '></h1>
         <div>
           <ul className='hidden md:flex'>
@@ -48,7 +48,7 @@ const handleNAv = () => {
             </div>
            </div>
             </div>
-          <div className='py-4 flex flex-col justify-center items-center px-4'>
+          <div className='py-4 flex flex-col justify-center text-center items-center px-4'>
             <ul className=' '>
               <Link href='/'>
                 <li onClick={() => setNav(false)} className='py-4 text-lg hover:scale-105 ease-in duration-200'>
