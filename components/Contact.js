@@ -4,8 +4,8 @@ import { AiOutlineGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram , Ai
 const Contact = () => {
   return (
     <section id="contact">
-        <div class=" mx-8 max-w-5xl bg-gradient-to-br from-teal-400 via-yellow-400 to-pink-500 p-4 rounded-lg sm:px-8 sm:py-6 ">
-    <h1 class="text-white text-2xl sm:text-3xl md:text-4xl font-bold">hi, Lets Connect</h1>
+        <div class="  max-w-5xl bg-gradient-to-br from-teal-400 via-yellow-400 to-pink-500 p-4 rounded-lg sm:px-8 sm:py-6 ">
+    <h1 class="text-white text-2xl sm:text-3xl md:text-4xl font-bold">Hi, Lets Connect</h1>
     <div className='mt-2 '>
 
     <div className="flex flex-row  space-x-2 mb-1 ">
@@ -53,7 +53,7 @@ const Contact = () => {
  
     </div>
     <div className='flex flex-col justify-between items-start mt-3'>
-    <button class="bg-black text-white py-2 px-4 rounded-lg text-base sm:text-lg md:text-xl lg:text-2xl ">
+    <button class="bg-black text-white py-2 px-4 rounded-lg text-base sm:text-lg md:text-xl lg:text-2xl hover:bg-slate-800 ">
   Contact Me
 </button>
     </div>
