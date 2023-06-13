@@ -44,7 +44,7 @@ export const skillDetails = [
   {
     name: "React",
     key: "react",
-    icon: <FaReact className="w-12 h-12 mb-3 text-blue-400" />,
+    icon: <FaReact className="w-12 h-12 mb-3 text-blue-400 cursor-pointer hover:scale-110 hover:-translate-y-1 transition-transform " />,
   },
   
   {

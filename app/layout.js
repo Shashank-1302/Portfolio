@@ -22,11 +22,11 @@ export default function RootLayout({ children }) {
       
       
    
-   <body >
+   <body className='mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl'>
    
    <Navbar />
       <main>{children}  </main>
-     
+      
       <Footer/>
    </body>
     </html>
