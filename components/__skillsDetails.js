@@ -21,7 +21,8 @@ import {
   SiCadence, 
   SiBlockchain, 
   SiContentful, 
-  SiWeb3
+  SiWeb3,
+  SiNextdotjs
 } from 'react-icons/si';
 import TbBrandCpp from 'react-icons/tb'
 
@@ -111,6 +112,11 @@ export const skillDetails = [
     key: "solidity",
     icon: <SiEthereum className="w-12 h-12 mb-3 text-blue-500 cursor-pointer hover:scale-110 hover:-translate-y-1 transition-transform" />,
   },
+  {
+    name : "Next.js",
+    ket: "next",
+    icon: <SiNextdotjs className="w-12 h-12 mb-3 text-black cursor-pointer hover:scale-110 hover:-translate-y-1 transition-transform" />,
+  }
  
   
  
