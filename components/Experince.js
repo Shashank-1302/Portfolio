@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBriefcase, FaCalendarAlt } from 'react-icons/fa';  
-import { experiences } from './__experinceDetails';
+import { experiences } from './Details/__experinceDetails';
 
 const Experience = () => {
   return (
