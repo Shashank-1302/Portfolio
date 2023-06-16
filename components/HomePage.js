@@ -32,7 +32,7 @@ const HomePage = () => {
 
       <div className='mx-auto md:mx-4 mt-10 md:mt-20 w-full md:w-1/3'>
         <div className='animate-fadeInLeft'>
-          <Image className='rounded-3xl' src='/batman.jpg' width={400} height={700} alt='Picture of the author' />
+          <Image className='rounded-full' src='/profile.jpg' width={400} height={400} alt='Picture of the author' />
         </div>
          
         

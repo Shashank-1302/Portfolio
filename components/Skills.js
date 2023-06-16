@@ -1,5 +1,5 @@
 import React from 'react';
-import { skillDetails } from './__skillsDetails';
+import { skillDetails } from './Details/__skillsDetails';
 
 const SkillSection = () => {
   return (
