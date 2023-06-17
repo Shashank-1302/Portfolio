@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="md:w-1/2 mt-6 md:mt-0 md:ml-8">
             <p className="text-base md:text-lg text-gray-700">
-              Hi, I'm Shashank Shekhar, a 2nd Year Computer Science student and a full stack developer. I have a
+              Hi, I am Shashank Shekhar, a 2nd Year Computer Science student and a full stack developer. I have a
               passion for building web applications that are not only visually appealing but also highly functional
               and user-friendly.
             </p>
@@ -25,7 +25,7 @@ const About = () => {
             </p>
             <p className="text-base md:text-lg text-gray-700 mt-4">
               In my free time, I enjoy exploring new technologies, learning new programming languages, and
-              contributing to open-source projects. I'm always excited to take on new challenges and collaborate
+              contributing to open-source projects. I am always excited to take on new challenges and collaborate
               with like-minded individuals to create amazing web experiences.
             </p>
           </div>
