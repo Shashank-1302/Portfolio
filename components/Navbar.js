@@ -83,7 +83,7 @@ const handleNAv = () => {
             </ul>
             <div className=' border-b border-gray-300 my-4  text-blue-400'>
               <p>
-                Let's Connect
+                Lets Connect
               </p>
               
 
