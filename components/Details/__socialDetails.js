@@ -26,7 +26,7 @@ import {
       size: 30,
     },
     {
-      url: 'https://www.linkedin.com/in/shashank1302/',
+      url: 'https://www.instagram.com/_sha.sha.nk/',
       icon: AiOutlineInstagram,
       colorClass: 'hover:-translate-y-1 transition-transform cursor-pointer rounded-lg hover:text-white text-black  hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500  ease-in duration-150',
       size: 30,
