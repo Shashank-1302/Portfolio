@@ -4,7 +4,7 @@ import React from 'react';
 const ContactButton = () => {
   const handleContactClick = () => {
     const email = 'shashankshekhar1302@gmail.com';
-    const subject = 'Inquiry from Next.js Website';
+    const subject = 'hi';
     const body = 'Hi, I would like to get in touch with you.';
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
