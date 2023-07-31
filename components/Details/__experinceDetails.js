@@ -1,5 +1,11 @@
 export const experiences = [
-    {
+  {
+    title: 'Devrel Intern',
+    company: 'Move',
+    duration: '2023 - Present',
+    description: '',
+  },
+  {
       title: 'Full Stack Developer',
       company: 'CMS IPS Academy',
       duration: '2022 - Present',

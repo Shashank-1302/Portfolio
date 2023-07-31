@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import LottieAnimation from './Animation';
 
 const About = () => {
   return (
@@ -6,12 +8,15 @@ const About = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-6">About Me</h2>
         <div className="flex flex-col md:flex-row">
+
           <div className="md:w-1/2 ">
-            <img
+            {/* <Image
               className="w-auto h-auto object-cover  rounded-xl"
               src="/OIP.jpeg"
               alt="Profile Image"
-            />
+              width={400} height={400}
+            /> */}
+            <LottieAnimation />
           </div>
           <div className="md:w-1/2 mt-6 md:mt-0 md:ml-8">
             <p className="text-base md:text-lg text-gray-700">

@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineGithub, AiOutlineTwitter, AiFillLinkedin, AiFillInstagram , AiOutlineInstagram } from 'react-icons/ai'
+import ContactButton from './ContactButton'
 
 const Contact = () => {
   return (
@@ -53,9 +54,8 @@ const Contact = () => {
  
     </div>
     <div className='flex flex-col justify-between items-start mt-3'>
-    <button class="bg-black text-white py-2 px-4 rounded-lg text-base sm:text-lg md:text-xl lg:text-2xl hover:bg-slate-800 ">
-  Contact Me
-</button>
+    <ContactButton/>
+
     </div>
     
     

@@ -1,21 +1,21 @@
 export const projects = [
     {
       title: 'Wally',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'A Wallpaper App made using Flutter and Firebase.',
       image: '/project1.jpg',
       link: 'https://github.com/Shashank-1302/Wally',
     },
     {
       title: 'Newstar',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      description: 'A news app made using Flutter and NewsAPI.',
       image: '/project2.jpg',
       link: 'https://github.com/Shashank-1302/FlutterNewsApp',
     },
     {
       title: 'Finance Tracker',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      description: 'A finance tracker app made using Next.js, TailwindCSS. and Firebase.',
       image: '/project3.jpg',
       link: 'https://github.com/Shashank-1302/finance-tracker',
     }
-    // Add more projects as needed
+    
   ];
