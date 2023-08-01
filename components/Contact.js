@@ -38,7 +38,7 @@ const Contact = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/shashank1302/"
+            href="https://www.instagram.com/_sha.sha.nk/"
             rel="noreferrer"
             target="_blank"
           >

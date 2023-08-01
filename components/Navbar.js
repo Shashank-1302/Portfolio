@@ -21,16 +21,16 @@ const handleNAv = () => {
               <Link href='#about' >About</Link>
             </li>
             <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='/#skills'>Skills</Link> 
+              <Link href='#skills'>Skills</Link> 
             </li>
             <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='/#projects'>Projects</Link>
+              <Link href='#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='/resume'>Resume</Link>
             </li>
             <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='/#contact'>Contact</Link>
+              <Link href='#contact'>Contact</Link>
             </li>
           </ul>
           <div onClick={handleNAv} className='md:hidden cursor-pointer hover:scale-[11hover:-translate-y-1 transition-transform cursor-pointer0%] ease-in duration-150'>
@@ -60,12 +60,12 @@ const handleNAv = () => {
                   About
                 </li>
               </Link>
-              <Link href='/#skills'>
+              <Link href='#skills'>
                 <li onClick={() => setNav(false)} className='py-4 text-lg hover:scale-105 ease-in duration-200'>
                   Skills
                 </li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='#projects'>
                 <li onClick={() => setNav(false)} className='py-4 text-lg hover:scale-105 ease-in duration-200'>
                   Projects
                 </li>
@@ -75,7 +75,7 @@ const handleNAv = () => {
                   Resume
                 </li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-lg hover:scale-105 ease-in duration-200'>
                   Contact
                 </li>
