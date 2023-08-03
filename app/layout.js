@@ -5,6 +5,7 @@ import './globals.css'
 import Footer from '@/components/Footer'
 import Social from '@/components/Social'
 import { useEffect } from 'react'
+import CustomCursor from '@/components/CustomCursor'
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -12,11 +13,12 @@ export default function RootLayout({ children }) {
   },[]);
   return (
     <html lang="en">
+    
       
       
    
    <body className='mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl'>
-   
+     <CustomCursor/>
    <Navbar />
       <main>{children}  </main>
       

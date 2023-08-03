@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   font-family: 'Raleway', sans-serif ,'Dm Sans', sans-serif;
 }
 
@@ -71,3 +71,26 @@ html {
         animation: fadeInLeft 0.6s ease-in-out;
     }
   
+/* styles/globals.css */
+
+* {
+  cursor: none !important; 
+  scroll-behavior: smooth;  
+}
+
+.custom-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 16px;
+  background-color: black;
+  opacity: 0.4;
+  z-index: 999;
+  pointer-events: none;
+}
+
+
+
+

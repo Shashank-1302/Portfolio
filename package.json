@@ -13,6 +13,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
+    "framer-motion": "^10.15.0",
     "lottie": "^0.0.1",
     "lottie-react": "^2.4.0",
     "lottie-web": "^5.12.2",
