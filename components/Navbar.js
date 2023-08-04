@@ -14,23 +14,25 @@ const handleNAv = () => {
         <h1 className=' text-lg font-bold '></h1>
         <div>
           <ul className='hidden md:flex'>
-          <li className='ml-10 text-lg  cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='/'>Home</Link>
+          <li className='ml-10 text-lg  cursor-pointer  hover:text-blue-500 ease-in duration-150'>
+            
+              <Link href='/'className='link link-underline link-underline-black '>Home</Link>
+              
             </li>
             <li className='ml-10 text-lg   cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='#about' >About</Link>
+              <Link href='#about' className='link link-underline link-underline-black '>About</Link>
             </li>
             <li className='ml-10 text-lg   cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='#skills'>Skills</Link> 
+              <Link href='#skills'className='link link-underline link-underline-black '>Skills</Link> 
             </li>
             <li className='ml-10 text-lg     cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='#projects'>Projects</Link>
+              <Link href='#projects'className='link link-underline link-underline-black '>Projects</Link>
             </li>
             <li className='ml-10 text-lg     cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='/resume'>Resume</Link>
+              <Link href='/resume'className='link link-underline link-underline-black '>Resume</Link>
             </li>
             <li className='ml-10 text-lg     cursor-pointer hover:text-blue-500 ease-in duration-150'>
-              <Link href='#contact'>Contact</Link>
+              <Link href='#contact'className='link link-underline link-underline-black '>Contact</Link>
             </li>
           </ul>
           <div onClick={handleNAv} className='md:hidden cursor-pointer hover:scale-[11  cursor-pointer0%] ease-in duration-150'>

@@ -33,7 +33,7 @@ export default function CustomCursor() {
       style={{
         translateX: cursorX,
         translateY: cursorY,
-        transition: "transform 0.10s ease-out", // Add the transition property here
+        transition: "transform 0.1s ease-out", // Add the transition property here
       }}
     />
   );
