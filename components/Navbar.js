@@ -14,26 +14,26 @@ const handleNAv = () => {
         <h1 className=' text-lg font-bold '></h1>
         <div>
           <ul className='hidden md:flex'>
-          <li className='ml-10 text-lg  hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
+          <li className='ml-10 text-lg  cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-lg hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
+            <li className='ml-10 text-lg   cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='#about' >About</Link>
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
+            <li className='ml-10 text-lg   cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='#skills'>Skills</Link> 
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
+            <li className='ml-10 text-lg     cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
+            <li className='ml-10 text-lg     cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-lg   hover:-translate-y-1 transition-transform cursor-pointer hover:text-blue-500 ease-in duration-150'>
+            <li className='ml-10 text-lg     cursor-pointer hover:text-blue-500 ease-in duration-150'>
               <Link href='#contact'>Contact</Link>
             </li>
           </ul>
-          <div onClick={handleNAv} className='md:hidden cursor-pointer hover:scale-[11hover:-translate-y-1 transition-transform cursor-pointer0%] ease-in duration-150'>
+          <div onClick={handleNAv} className='md:hidden cursor-pointer hover:scale-[11  cursor-pointer0%] ease-in duration-150'>
             <AiOutlineMenu size={25} />
           </div>
         </div>
