@@ -11,10 +11,18 @@ const HomePage = () => {
         <div className='animate-fadeInRight flex flex-col justify-center p-4 md:p-8'>
           <h1 className='text-black text-5xl font-medium'>Hi, I am </h1>
           <h1 className='text-black text-5xl font-medium hover:text-blue-500 ease-in duration-300'>Shashank Shekhar</h1>
-          <p className='text-2xl mt-3 text-[#707070]'>2nd Year Computer Science Student and</p>
+          <p className='text-2xl mt-3 text-[#707070]'>Final Year Computer Science Student and</p>
           <p className='text-2xl text-[#707070]'>a full stack developer. </p>
           <div className='mt-3'>
             <Social />
+            <div className='mt-3'>
+            <button
+      className="relative -top-1 -left-1 bg-gray-800 py-2.5 px-5 font-medium uppercase text-white transition-all before:absolute before:top-1 before:left-1 before:-z-[1] before:h-full before:w-full before:border-2 before:border-gray-700 before:transition-all before:content-[''] hover:top-0 hover:left-0 before:hover:top-0 before:hover:left-0 pt-3"
+     
+    >
+      Resume
+    </button>
+            </div>
 
    
           </div>
